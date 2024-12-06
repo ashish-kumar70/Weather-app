@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Sour Gummy", serif;
+  font-weight: 200;
+}
+html{
+  background-color: rgb(238, 202, 156);
+}
+.main-content {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60rem;
+  margin: auto;
+  padding: 0px 1rem;
+  .s-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45rem;
+    height: 7rem;
+    /* border: 2px solid red; */
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(65, 173, 254, 255),
+      rgba(150, 71, 255, 255)
+    );
+    border-radius: 1.5rem;
+    button {
+      /* height: 40%; */
+      margin: 3rem 4rem;
+    }
+    img {
+      height: 2rem;
+    }
+    select {
+      height: 40%;
+      width: 70%;
+      border: 0.2rem solid black;
+    }
+  }
+  .b-box {
+    /* height: 60%; */
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(65, 173, 254, 255),
+      rgba(150, 71, 255, 255)
+    );
+    h5 {
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: aliceblue;
+      
+    }
+    .location {
+      margin: 1rem 0;
+    }
+    .locaAndTime {
+      /* border: 2px solid rebeccapurple; */
+      display: flex;
+      color: aliceblue;
+      img {
+        height: 1.5rem;
+        width: 1.5rem;
+      }
+    }
+    .temp-content {
+      display: flex;
+      color: aliceblue;
+      /* border: 2px solid red; */
+      .temp{
+        margin: 50px 0.4em;
+      }
+      hr {
+        background-color: white;
+        width: 0.3rem;
+        margin: 0 1rem;
+        height: 2.7em;
+      }
+      .weather-img {
+        margin-left: auto;
+        margin-right: 9rem;
+        /* height: 23em; */
+        
+        /* img {
+          width: 300px; height: 337px;
+        } */
+    }
+    
+    }
+    .last-section {
+      /* border: 2px solid red; */
+      margin-top: 1rem;
+      color: aliceblue;
+    }
+  }
+}

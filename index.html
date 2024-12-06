@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="s-box">
+        <select name="cities" id="city">
+          <option value="New Delhi">New Delhi</option>
+          <option value="Chandigarh">Chandigarh</option>
+          <option value="London">London</option>
+          <option value="Mumbai">Mumbai</option>
+        </select>
+        <button>
+          <img src="images/search-icon.png" alt="search" />
+        </button>
+      </div>
+      <div class="b-box">
+        <h5 class="curr_location">Your Location</h5>
+        <hr />
+
+        <div class="location">
+          <div class="locaAndTime">
+            <img src="images/location.png" alt="" />
+            <h3 class="Location">Location</h3>
+          </div>
+          <div class="locaAndTime">
+            <img src="images/callender_image.png" alt="" />
+            <h3 class="Datetime">Datetime</h3>
+          </div>
+        </div>
+
+        <div class="temp-content">
+          
+            <h1 id="tempInCel" class="temp">30C</h1>
+            <hr  class="temp" >
+            <h1 id="tempInf" class="temp">73F</h1>
+
+          <div class="weather-img">
+            <img id="cr_img" src="images/location.png" width="12em" 
+            height="12em"
+            style="width: 9em; height: 9em; object-fit: cover;" alt= "weather img"   />
+          </div>
+        </div>
+        <div class="last-section">
+          <h3 class="weather">Cloudy</h3>
+          <p class="Humidity">Humidity: 00%</p>
+          <p class="Precipitation">Precipitation: 00%</p>
+          <p class="W-Speed">Wind Speed: 00km/h</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
