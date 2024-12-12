@@ -107,3 +107,15 @@ html{
     }
   }
 }
+@media (max-width: 400px){ 
+  .main-content{
+    margin-top: 5rem;
+
+  }
+  .b-box{
+    h5{
+      font-size: 5rem;
+    }
+  }
+  
+}
