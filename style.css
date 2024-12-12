@@ -32,6 +32,8 @@ html{
     border-radius: 1.5rem;
     button {
       /* height: 40%; */
+      cursor: pointer;
+      border: 0.2rem solid black;
       margin: 3rem 4rem;
     }
     img {

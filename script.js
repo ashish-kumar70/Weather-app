@@ -3,7 +3,7 @@
   let b = document.querySelector("button")
   b.addEventListener("click", () => {
     let url = fetch(
-      `http://api.weatherapi.com/v1/current.json?key=ee95633e89ed405bb29141901241911&q=${a.value}&aqi=yes`
+      `https://api.weatherapi.com/v1/current.json?key=ee95633e89ed405bb29141901241911&q=${a.value}&aqi=yes`
     );
     console.log(a.value);
     url
